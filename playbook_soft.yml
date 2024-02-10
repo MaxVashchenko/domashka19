@@ -1,0 +1,10 @@
+#install_soft
+- name: Install soft
+  hosts: servak1
+    become_user: ubuntu
+    become: true
+  role:
+    - user_config
+    - install_soft
+    - web_server
+    - mysql_server

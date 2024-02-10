@@ -1,0 +1,7 @@
+#bd_sever
+- name: bd_sever
+  hosts: servak3
+    become_user: ubuntu
+    become: true
+  role:
+    - mysql_server

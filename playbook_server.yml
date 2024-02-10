@@ -1,0 +1,7 @@
+#web_server
+- name: web_server
+  hosts: servak2
+    become_user: ubuntu
+    become: true
+  role:
+   - web_server
