@@ -31,4 +31,4 @@
     lineinfile:
       path: "~/.bashrc"
       state: present
-      line:   "LS_COLORS=$LS_COLORS:'di=1;4;31;42' ; export LS_COLORS"   
+      line:   "LS_COLORS=$LS_COLORS:'di=1;4;31;42' ; export LS_COLORS"
